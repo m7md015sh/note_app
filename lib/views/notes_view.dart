@@ -8,7 +8,8 @@ class NotesView extends StatelessWidget {
   Widget build(BuildContext context) {
     return  const Scaffold(
       body: SafeArea(
-        child:NotesViewBody()
+        child:NotesViewBody(),
+
       ),
     );
   }
